@@ -1,0 +1,117 @@
+/*
+*{
+    margin: auto;
+    padding: auto;
+}*/
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.a{
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+.b{
+    font: italic small-caps lighter 1.5em 'Roboto', sans-serif;
+}
+.c{
+    text-align: center;
+    letter-spacing: .6em;
+    word-spacing: .6em;
+    text-transform: uppercase;
+    text-indent: 0cm;
+    line-height: 1.5em;
+}
+.d{
+    text-transform: uppercase;
+    color: rosybrown;
+    letter-spacing: 4rem;
+    text-align: center;
+
+    background-image: url(image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-color: fuchsia;
+    
+}
+.e{
+    color: white;
+    background: red  url(image.png) center/contain repeat scroll;
+}
+.f{
+    border-color: red;
+    border-width: 10px;
+    border-top-left-radius: .5rem;
+
+}
+.g{
+    border: 10px solid mediumorchid;
+    background:pink;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+/*positioning--------------------------->*/
+.p-box{
+    position: relative;
+    font-size: large;
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-top: 30px;
+    background-image: url(fri.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.p-box h1{
+    font-weight: bolder;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: black;
+    background-image: none;
+    border: none;;
+} 
+/*psuedo classes---------------------------->*/
+.ps{
+    list-style-type: none;
+    width: 40vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ps li{
+    margin-top: 10px;
+    border: 4px solid grey;
+    border-radius: 2rem;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*psuedo classes*/
+.ps li:first-child{
+    background-color: whitesmoke;
+}
+.ps li:nth-child(2){
+    background-color:mediumseagreen;
+}
+.ps li:last-child{
+    background-color: lightskyblue;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    
+    display: inline-block;
+    margin-right: 400px;
+}
